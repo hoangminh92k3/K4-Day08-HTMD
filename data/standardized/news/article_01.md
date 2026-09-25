@@ -2,7 +2,7 @@
 
 **Source:** https://ielts.org/news-and-insights/ielts-writing-band-descriptors-and-key-assessment-criteria
 
-**Crawled:** 2026-09-25T03:10:20.030712+00:00
+**Crawled:** 2026-09-25T13:30:30.110906+00:00
 
 ---
 

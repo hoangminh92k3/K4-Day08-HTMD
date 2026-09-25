@@ -15,12 +15,11 @@ if "messages" not in st.session_state:
 
 with st.sidebar:
     st.title("RAG Chatbot")
-    st.caption("Thay mô tả theo đề tài của nhóm")
+    st.caption("Tôi là trợ lý AI hỗ trợ hỏi đáp về IELTS Writing Test. Tôi có thể giúp gì cho bạn?")
     top_k = st.slider("Số chunks", 3, 10, 5)
 
 st.title("RAG Chatbot")
-st.caption("Thay tiêu đề và hướng dẫn sử dụng")
-
+st.caption("Tôi là trợ lý AI hỗ trợ hỏi đáp về IELTS Writing Test. Tôi có thể giúp gì cho bạn?")
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])

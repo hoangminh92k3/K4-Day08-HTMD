@@ -2,7 +2,7 @@
 
 **Source:** https://ielts.org/news-and-insights/ielts-writing-task-2-how-to-understand-ielts-question-prompts
 
-**Crawled:** 2026-09-25T03:10:24.443747+00:00
+**Crawled:** 2026-09-25T13:30:34.949277+00:00
 
 ---
 

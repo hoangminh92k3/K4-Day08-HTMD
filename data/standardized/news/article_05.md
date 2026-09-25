@@ -2,7 +2,7 @@
 
 **Source:** https://ielts.idp.com/vietnam/about/news-and-articles/article-ielts-writing-band-descriptors
 
-**Crawled:** 2026-09-25T03:10:58.701254+00:00
+**Crawled:** 2026-09-25T13:30:49.224850+00:00
 
 ---
 
@@ -11,44 +11,49 @@ The official IELTS by IDP app is here! [Download it ](/lp/ielts-by-idp-app) toda
 [![IDP IELTS Logo](https://image.ielts.idp.com/IELTS_Website_Rebrand/assets/home/idp_ielts_logo.svg)](/vietnam "IDP IELTS")
   * [Bài thi IELTS ](/vietnam/about/which-test-do-i-take "Bài thi IELTS")
 Tìm hiểu bài thi [ IELTS Academic ](/vietnam/about/which-test-do-i-take/academic "IELTS Academic")[ IELTS General Training ](/vietnam/about/which-test-do-i-take/general-training "IELTS General Training")[ IELTS for UKVI Academic ](/vietnam/about/which-test-do-i-take/academic-ukvi "IELTS for UKVI Academic")[ IELTS for UKVI General Training ](/vietnam/about/which-test-do-i-take/general-training-ukvi "IELTS for UKVI General Training")[ IELTS Life Skills ](/vietnam/about/which-test-do-i-take/life-skills-ukvi "IELTS Life Skills")[ Thi IELTS trên máy tính ](/vietnam/about/news-and-articles/article-computer-delivered-ielts "Thi IELTS trên máy tính")
-IELTS One skill Retake [ IELTS One Skill Retake là gì? ](/vietnam/about/ielts-one-skill-retake "IELTS One Skill Retake là gì?")[ Hướng dẫn đăng ký thi IELTS One Skill Retake ](/vietnam/about/news-and-articles/article-how-to-book-ielts-one-skill-retake "Hướng dẫn đăng ký thi IELTS One Skill Retake")[ Các tổ chức chấp nhận IELTS One Skill Retake ](/vietnam/about/who-accepts-ielts-one-skill-retake "Các tổ chức chấp nhận IELTS One Skill Retake")[ Cách sử dụng kết quả IELTS One Skill Retake ](/vietnam/about/news-and-articles/article-ielts-one-skill-retake-osr-results-trf "Cách sử dụng kết quả IELTS One Skill Retake ")[ Câu hỏi thường gặp IELTS One Skill Retake ](/vietnam/about/ielts-one-skill-retake-faqs "Câu hỏi thường gặp IELTS One Skill Retake")
-[Đăng ký thi IELTS ](https://ielts.idp.com/vietnam/book-my-test "Đăng ký thi IELTS")[ Lịch thi IELTS ](/vietnam/test-day "Lịch thi IELTS")[ Lệ phí thi IELTS ](/vietnam/ielts-fees "Lệ phí thi IELTS")[ Chương trình ưu đãi IELTS ](/vietnam/ielts-promotion "Chương trình ưu đãi IELTS")[ Địa điểm thi IELTS ](/vietnam/test-dates "Địa điểm thi IELTS")
+IELTS One skill Retake [![globe](https://image.ielts.idp.com/assets/img_px.gif) IELTS One Skill Retake là gì? ](/vietnam/about/ielts-one-skill-retake "IELTS One Skill Retake là gì?")[![news-item](https://image.ielts.idp.com/assets/img_px.gif) Hướng dẫn đăng ký thi IELTS One Skill Retake ](/vietnam/about/news-and-articles/article-how-to-book-ielts-one-skill-retake "Hướng dẫn đăng ký thi IELTS One Skill Retake")[![why-choose-ielts](https://image.ielts.idp.com/assets/img_px.gif) Các tổ chức chấp nhận IELTS One Skill Retake ](/vietnam/about/who-accepts-ielts-one-skill-retake "Các tổ chức chấp nhận IELTS One Skill Retake")[![why-choose-ielts](https://image.ielts.idp.com/assets/img_px.gif) Cách sử dụng kết quả IELTS One Skill Retake ](/vietnam/about/news-and-articles/article-ielts-one-skill-retake-osr-results-trf "Cách sử dụng kết quả IELTS One Skill Retake ")[![FAQ](https://image.ielts.idp.com/assets/img_px.gif) Câu hỏi thường gặp IELTS One Skill Retake ](/vietnam/about/ielts-one-skill-retake-faqs "Câu hỏi thường gặp IELTS One Skill Retake")
+[Đăng ký thi IELTS ](https://ielts.idp.com/vietnam/book-my-test "Đăng ký thi IELTS")[![ielts-event](https://image.ielts.idp.com/assets/img_px.gif) Lịch thi IELTS ](/vietnam/test-day "Lịch thi IELTS")[![presentation-chart-bar](https://image.ielts.idp.com/assets/img_px.gif) Lệ phí thi IELTS ](/vietnam/ielts-fees "Lệ phí thi IELTS")[![ielts online](https://image.ielts.idp.com/assets/img_px.gif) Chương trình ưu đãi IELTS ](/vietnam/ielts-promotion "Chương trình ưu đãi IELTS")[![IELTS by IDP app - Light bulb icon](https://image.ielts.idp.com/assets/img_px.gif) Địa điểm thi IELTS ](/vietnam/test-dates "Địa điểm thi IELTS")
   * [Chuẩn bị ](https://ielts.idp.com/ielts-prep-hub "Chuẩn bị")
 Truy cập IELTS Prepare Hub
+![Prepare Hub](https://image.ielts.idp.com/assets/img_px.gif)
 #### Truy cập IELTS Prepare Hub
 Hãy truy cập IELTS Prepare Hub để khám phá tài liệu hữu ích và đăng ký sự kiện luyện thi trực tiếp hoặc trực tuyến.
 [Truy cập kho tài liệu IELTS](http://ielts.idp.com/ielts-prep-hub "Truy cập kho tài liệu IELTS")
 Chuẩn bị cho kỳ thi [IELTS Academic ](/vietnam/prepare/academic-preparation "IELTS Academic")[IELTS General Training ](/vietnam/prepare/ielts-general-training-preparation "IELTS General Training")[IELTS for UKVI ](/vietnam/prepare/ielts-for-ukvi "IELTS for UKVI")
 Thi thử [Thông tin về thi thử IELTS ](/vietnam/about/news-and-articles/article-ielts-computer-trial-at-home "Thông tin về thi thử IELTS")[Đăng ký thi thử IELTS ](/vietnam/about/news-and-articles/article-ielts-fam-test-dates "Đăng ký thi thử IELTS")
 Chuẩn bị cho ngày thi [Cần mang theo những gì khi đi thi IELTS ](/vietnam/about/test-day/what-to-bring "Cần mang theo những gì khi đi thi IELTS")[Vào ngày thi ](/vietnam/about/test-day "Vào ngày thi")[Sự kiện ](/vietnam/events "Sự kiện")[Đổi lịch thi hoặc hủy thi IELTS ](/vietnam/about/test-day/reschedule-cancel-ielts "Đổi lịch thi hoặc hủy thi IELTS")
-Chuẩn bị cho các kỹ năng [Bài thi Nghe IELTS ](/vietnam/prepare/listening "Bài thi Nghe IELTS")[Bài thi Đọc IELTS ](/vietnam/prepare/reading "Bài thi Đọc IELTS")[Bài thi Viết IELTS ](/vietnam/prepare/writing "Bài thi Viết IELTS")[Bài thi Nói IELTS ](/vietnam/prepare/speaking "Bài thi Nói IELTS")
-##### [English self-assessment tool Check your reading and listening skills and get recommendations for your IELTS preparation. Try now](https://ielts.idp.com/diagnostic-tool-preparation "diagnostic-tool")
-Kho tài liệu [ Kho tài liệu IELTS ](https://ielts.idp.com/prepare/all-test-types/all-skills/article "Kho tài liệu IELTS")[ IELTS Masterclass ](/vietnam/prepare/masterclass "IELTS Masterclass")
+Chuẩn bị cho các kỹ năng [![ielts-listening-icon](https://image.ielts.idp.com/assets/img_px.gif)Bài thi Nghe IELTS ](/vietnam/prepare/listening "Bài thi Nghe IELTS")[![ielts-reading-icon](https://image.ielts.idp.com/assets/img_px.gif)Bài thi Đọc IELTS ](/vietnam/prepare/reading "Bài thi Đọc IELTS")[![ielts-writing-icon](https://image.ielts.idp.com/assets/img_px.gif)Bài thi Viết IELTS ](/vietnam/prepare/writing "Bài thi Viết IELTS")[![ielts-speaking-icon](https://image.ielts.idp.com/assets/img_px.gif)Bài thi Nói IELTS ](/vietnam/prepare/speaking "Bài thi Nói IELTS")
+[ ![diagnostic-icon](https://image.ielts.idp.com/assets/img_px.gif) English self-assessment tool Check your reading and listening skills and get recommendations for your IELTS preparation. Try now](https://ielts.idp.com/diagnostic-tool-preparation "diagnostic-tool")
+Kho tài liệu [![expert-tips](https://image.ielts.idp.com/assets/img_px.gif) Kho tài liệu IELTS ](https://ielts.idp.com/prepare/all-test-types/all-skills/article "Kho tài liệu IELTS")[![masterclass](https://image.ielts.idp.com/assets/img_px.gif) IELTS Masterclass ](/vietnam/prepare/masterclass "IELTS Masterclass")
   * [Kết quả ](/vietnam/results "Kết quả")
 Kiểm tra kết quả
+![](https://image.ielts.idp.com/assets/img_px.gif)
 #### Kiểm tra kết quả
 Truy cập tài khoản IELTS IDP để kiểm tra kết quả và nhiều tiện ích khác
 [Đăng nhập ngay](https://account.ielts.idp.com/ "Đăng nhập ngay")
-Thang điểm IELTS [ Cách tính điểm IELTS ](/vietnam/results/scores "Cách tính điểm IELTS")[ Thang điểm IELTS Listening ](/vietnam/results/scores/listening "Thang điểm IELTS Listening")[ Thang điểm IELTS Reading ](/vietnam/results/scores/reading "Thang điểm IELTS Reading")[ Thang điểm IELTS Writing ](/vietnam/results/scores/writing "Thang điểm IELTS Writing")[ Thang điểm IELTS Speaking ](/vietnam/results/scores/speaking "Thang điểm IELTS Speaking")[ Điểm số IELTS Life Skills ](/vietnam/results/scores/life-skills "Điểm số IELTS Life Skills")
-Các bước tiếp theo [ IELTS One Skill Retake ](/vietnam/about/ielts-one-skill-retake "IELTS One Skill Retake")[ Nhận kết quả thi IELTS nhanh chóng ](/vietnam/results/faster-test-results "Nhận kết quả thi IELTS nhanh chóng")[ Yêu cầu phúc khảo ](/vietnam/results/request-remark "Yêu cầu phúc khảo")[ Yêu cầu cấp thêm bảng điểm ](/vietnam/results/request-additional-trf "Yêu cầu cấp thêm bảng điểm")[ Tải các mẫu đơn ](/vietnam/prepare/downloadable-form "Tải các mẫu đơn")[ IELTS - Tấm vé vàng để đi du học ](https://www.idp.com "IELTS - Tấm vé vàng để đi du học")
+Thang điểm IELTS [![ielts-calculator](https://image.ielts.idp.com/assets/img_px.gif) Cách tính điểm IELTS ](/vietnam/results/scores "Cách tính điểm IELTS")[![ielts-listening-icon](https://image.ielts.idp.com/assets/img_px.gif) Thang điểm IELTS Listening ](/vietnam/results/scores/listening "Thang điểm IELTS Listening")[![ielts-reading-icon](https://image.ielts.idp.com/assets/img_px.gif) Thang điểm IELTS Reading ](/vietnam/results/scores/reading "Thang điểm IELTS Reading")[![ielts-writing-icon](https://image.ielts.idp.com/assets/img_px.gif) Thang điểm IELTS Writing ](/vietnam/results/scores/writing "Thang điểm IELTS Writing")[![ielts-speaking-icon](https://image.ielts.idp.com/assets/img_px.gif) Thang điểm IELTS Speaking ](/vietnam/results/scores/speaking "Thang điểm IELTS Speaking")[![ukvi-icon](https://image.ielts.idp.com/assets/img_px.gif) Điểm số IELTS Life Skills ](/vietnam/results/scores/life-skills "Điểm số IELTS Life Skills")
+Các bước tiếp theo [![osr-icon-header](https://image.ielts.idp.com/assets/img_px.gif) IELTS One Skill Retake ](/vietnam/about/ielts-one-skill-retake "IELTS One Skill Retake")[![ielts online](https://image.ielts.idp.com/assets/img_px.gif) Nhận kết quả thi IELTS nhanh chóng ](/vietnam/results/faster-test-results "Nhận kết quả thi IELTS nhanh chóng")[![remark](https://image.ielts.idp.com/assets/img_px.gif) Yêu cầu phúc khảo ](/vietnam/results/request-remark "Yêu cầu phúc khảo")[![Access computer-based results](https://image.ielts.idp.com/assets/img_px.gif) Yêu cầu cấp thêm bảng điểm ](/vietnam/results/request-additional-trf "Yêu cầu cấp thêm bảng điểm")[![reader](https://image.ielts.idp.com/assets/img_px.gif) Tải các mẫu đơn ](/vietnam/prepare/downloadable-form "Tải các mẫu đơn")[![idp](https://image.ielts.idp.com/assets/img_px.gif) IELTS - Tấm vé vàng để đi du học ](https://www.idp.com "IELTS - Tấm vé vàng để đi du học")
   * [Cộng đồng IELTS ](https://ielts.idp.com/ielts-community "Cộng đồng IELTS")
 Cộng đồng IELTS IDP
+![](https://image.ielts.idp.com/assets/img_px.gif)
 #### Cộng đồng IELTS IDP
 Lắng nghe những lời khuyên, trả lời cho những câu hỏi thường gặp từ chính chuyên gia IELTS với nguồn thông tin đáng tin cậy.
 [Khám phá cộng đồng IELTS](https://ielts.idp.com/ielts-community "Khám phá cộng đồng IELTS")
-Tìm hiểu thêm [ Ứng dụng IELTS by IDP ](/vietnam/lp/ielts-by-idp-app "Ứng dụng IELTS by IDP")
+Tìm hiểu thêm [![ielts-by-idp-app](https://image.ielts.idp.com/assets/img_px.gif) Ứng dụng IELTS by IDP ](/vietnam/lp/ielts-by-idp-app "Ứng dụng IELTS by IDP")
 Kênh mạng xã hội
-[](https://www.youtube.com/@IELTSbyIDPVietnam)[](https://www.instagram.com/ieltsbyidpvietnam/)[](https://www.linkedin.com/showcase/idp-vietnam/)[](https://www.facebook.com/ieltsbyidpvietnam/)[](https://zalo.me/3587922624351485800)[](https://www.tiktok.com/@ieltsbyidpvietnam)
+[![youtube](https://image.ielts.idp.com/assets/img_px.gif)](https://www.youtube.com/@IELTSbyIDPVietnam)[![instagram](https://image.ielts.idp.com/assets/img_px.gif)](https://www.instagram.com/ieltsbyidpvietnam/)[![linkedin](https://image.ielts.idp.com/assets/img_px.gif)](https://www.linkedin.com/showcase/idp-vietnam/)[![facebook](https://image.ielts.idp.com/assets/img_px.gif)](https://www.facebook.com/ieltsbyidpvietnam/)[![zalo](https://image.ielts.idp.com/assets/img_px.gif)](https://zalo.me/3587922624351485800)[![tiktok](https://image.ielts.idp.com/assets/img_px.gif)](https://www.tiktok.com/@ieltsbyidpvietnam)
 Cảm nghĩ về IDP
+![testimonial](https://image.ielts.idp.com/assets/img_px.gif)
 Nhân viên IELTS thân thiên, hỗ trợ thí sinh nhiệt, vui vẻ. Văn phòng IDP rất đẹp, 10 điểm không có nhưng
+![avatar](https://image.ielts.idp.com/assets/img_px.gif)
 ##### Thanh Nguyen
-19/06/2024
+20/06/2024
 [Xem thêm các chia sẻ ](/vietnam/about/where-ielts-can-take-me/success-stories)
   * [Về IELTS ](/vietnam/about "Về IELTS")
 [HỢP TÁC VỚI IELTS ](/vietnam/about "HỢP TÁC VỚI IELTS")[ IELTS dành cho giáo viên ](/vietnam/about/ielts-for-teachers "IELTS dành cho giáo viên")[ IELTS dành cho tổ chức ](/vietnam/about/ielts-for-organisations "IELTS dành cho tổ chức")[ Đối tác IDP IELTS tại Việt Nam ](/vietnam/partners "Đối tác IDP IELTS tại Việt Nam")
-Giới thiệu IDP IELTS [ Các tổ chức công nhận ](/vietnam/about/who-accepts-ielts/organisations-that-accept-ielts "Các tổ chức công nhận")[ Tin tức và bài viết cập nhật ](/vietnam/about/news-and-articles "Tin tức và bài viết cập nhật")[ Tại sao chọn IELTS? ](/vietnam/about/news-and-articles/article-who-takes-ielts "Tại sao chọn IELTS?")[ Câu hỏi thường gặp về IELTS ](/vietnam/faq/ielts-faq "Câu hỏi thường gặp về IELTS")
+Giới thiệu IDP IELTS [![globe](https://image.ielts.idp.com/assets/img_px.gif) Các tổ chức công nhận ](/vietnam/about/who-accepts-ielts/organisations-that-accept-ielts "Các tổ chức công nhận")[![Latest updates icon - Global rebrand header](https://image.ielts.idp.com/assets/img_px.gif) Tin tức và bài viết cập nhật ](/vietnam/about/news-and-articles "Tin tức và bài viết cập nhật")[![why-choose-ielts](https://image.ielts.idp.com/assets/img_px.gif) Tại sao chọn IELTS? ](/vietnam/about/news-and-articles/article-who-takes-ielts "Tại sao chọn IELTS?")[![FAQ](https://image.ielts.idp.com/assets/img_px.gif) Câu hỏi thường gặp về IELTS ](/vietnam/faq/ielts-faq "Câu hỏi thường gặp về IELTS")
 TIN TỨC, BÀI VIẾT CẬP NHẬT
-[ ![People](//images.ctfassets.net/unrdeg6se4ke/4zJdK5iKcalj5rHbTeqWU0/25547b85b6df8f09db1a206ecb7c2d81/news-item.svg) Các dạng bài & cách viết IELTS Writing Task 1 ](/vietnam/about/news-and-articles/article-ielts-writing-task-1)[ ![People](//images.ctfassets.net/unrdeg6se4ke/4zJdK5iKcalj5rHbTeqWU0/25547b85b6df8f09db1a206ecb7c2d81/news-item.svg) Các dạng Writing Task 2 thường gặp và định hướng làm bài ](/vietnam/about/news-and-articles/article-ielts-writing-task-2)[ ![People](//images.ctfassets.net/unrdeg6se4ke/4zJdK5iKcalj5rHbTeqWU0/25547b85b6df8f09db1a206ecb7c2d81/news-item.svg) IELTS Speaking Part 1: Các chủ đề thường gặp và bí quyết trả lời ](/vietnam/about/news-and-articles/article-ielts-speaking-test-part-1)
+[ ![People](//images.ctfassets.net/unrdeg6se4ke/4zJdK5iKcalj5rHbTeqWU0/25547b85b6df8f09db1a206ecb7c2d81/news-item.svg)Các dạng bài & cách viết IELTS Writing Task 1 ](/vietnam/about/news-and-articles/article-ielts-writing-task-1)[ ![People](//images.ctfassets.net/unrdeg6se4ke/4zJdK5iKcalj5rHbTeqWU0/25547b85b6df8f09db1a206ecb7c2d81/news-item.svg)Các dạng Writing Task 2 thường gặp và định hướng làm bài ](/vietnam/about/news-and-articles/article-ielts-writing-task-2)[ ![People](//images.ctfassets.net/unrdeg6se4ke/4zJdK5iKcalj5rHbTeqWU0/25547b85b6df8f09db1a206ecb7c2d81/news-item.svg)IELTS Speaking Part 1: Các chủ đề thường gặp và bí quyết trả lời ](/vietnam/about/news-and-articles/article-ielts-speaking-test-part-1)
 [Read more](/vietnam/about/news-and-articles)
 
 
@@ -58,6 +63,7 @@ TIN TỨC, BÀI VIẾT CẬP NHẬT
   * Simplified Chinese
 
 
+![profile](https://image.ielts.idp.com/IELTS_Website_Rebrand/assets/home/icons/profile.svg)Sign In
 [ Đăng ký thi ngay ](https://bxsearch.ielts.idp.com/wizard)
   * [IDP IELTS Việt Nam](/vietnam)
   * [Tìm hiểu về IELTS](/vietnam/about)
@@ -71,7 +77,8 @@ Bài viết này sẽ giúp bạn hiểu thêm về cách giám khảo cho đi�
 ##### Chủ đề bài viết
 WritingBand scoresPreparation
 IELTS Writing band descriptors - Tiêu chí chấm IELTS Writing
-Copied!
+![linkedin](https://image.ielts.idp.com/assets/img_px.gif)![facebook](https://image.ielts.idp.com/assets/img_px.gif)![copy link](https://image.ielts.idp.com/assets/img_px.gif)Copied!
+![article share](https://image.ielts.idp.com/assets/img_px.gif)
 ## Bạn hiểu thế nào về thang điểm IELTS?
 Điểm số cuối cùng của bạn là căn cứ để trường học và các nhà tuyển dụng tiềm năng nắm rõ về trình độ tiếng Anh tổng thể của bạn. Bạn có thể xem mô tả cho từng [thang điểm](https://ielts.idp.com/vietnam/results/scores) dưới đây.   
 | **Thang điểm (Overall band)**  | **Đánh giá thang điểm**  |  
@@ -114,16 +121,17 @@ Tại IDP, bạn có thể lựa chọn một trong hai hình thức [Thi IELTS 
 Nếu bạn đã sẵn sàng, hãy [đăng ký kỳ thi IELTS](https://ielts.idp.com/vietnam/test-dates) cùng IDP ngay hôm nay và nhận nhiều [ưu đãi hấp dẫn](https://ielts.idp.com/vietnam/ielts-promotion)!
 #### Thi IELTS cùng IDP - Thoải mái tự tin, đạt band như ý!
 [Đăng ký thi ngay](https://bxsearch.ielts.idp.com/wizard "Đăng ký thi ngay")
+![](https://image.ielts.idp.com/assets/img_px.gif)
 #### WRITTEN BY
-##### [Quỳnh Khanh 13/07/2023•Tôi là Quỳnh Khanh - Chuyên viên Nội dung Giáo dục tại IDP Việt Nam với hơn 6 năm kinh nghiệm về lĩnh vực giáo dục. ](/authors/quynh-khanh-nguyen)
+[![](https://image.ielts.idp.com/assets/img_px.gif) Quỳnh Khanh 13/07/2023•Tôi là Quỳnh Khanh - Chuyên viên Nội dung Giáo dục tại IDP Việt Nam với hơn 6 năm kinh nghiệm về lĩnh vực giáo dục. ](/authors/quynh-khanh-nguyen)
 #### Chia sẻ bài viết
-Copied!
+![linkedin](https://image.ielts.idp.com/assets/img_px.gif)![facebook](https://image.ielts.idp.com/assets/img_px.gif)![copy link](https://image.ielts.idp.com/assets/img_px.gif)Copied!
 ##### Chủ đề bài viết
 WritingBand scoresPreparation
 #####  IELTS
-[ Đăng ký thi IELTS  ](https://ielts.idp.com/vietnam/book-my-test "Đăng ký thi IELTS ")[ Lịch thi IELTS ](https://ielts.idp.com/vietnam/test-day/ "Lịch thi IELTS")[ Lệ phí thi IELTS ](https://ielts.idp.com/vietnam/ielts-fees/ "Lệ phí thi IELTS")[ Địa điểm thi IELTS ](https://ielts.idp.com/vietnam/test-dates "Địa điểm thi IELTS")[ IELTS One Skill Retake ](https://ielts.idp.com/vietnam/about/ielts-one-skill-retake "IELTS One Skill Retake")[ Chương trình ưu đãi ](https://ielts.idp.com/vietnam/ielts-promotion "Chương trình ưu đãi")[ Thi IELTS trên máy tính ](https://ielts.idp.com/vietnam/about/news-and-articles/article-computer-delivered-ielts "Thi IELTS trên máy tính")[ Thi thử IELTS trên máy tính ](https://ielts.idp.com/vietnam/about/news-and-articles/article-ielts-computer-trial-at-home "Thi thử IELTS trên máy tính")
+[ ![undefined](https://image.ielts.idp.com/assets/img_px.gif)Đăng ký thi IELTS  ](https://ielts.idp.com/vietnam/book-my-test "Đăng ký thi IELTS ")[ ![undefined](https://image.ielts.idp.com/assets/img_px.gif)Lịch thi IELTS ](https://ielts.idp.com/vietnam/test-day/ "Lịch thi IELTS")[ ![undefined](https://image.ielts.idp.com/assets/img_px.gif)Lệ phí thi IELTS ](https://ielts.idp.com/vietnam/ielts-fees/ "Lệ phí thi IELTS")[ ![undefined](https://image.ielts.idp.com/assets/img_px.gif)Địa điểm thi IELTS ](https://ielts.idp.com/vietnam/test-dates "Địa điểm thi IELTS")[ ![undefined](https://image.ielts.idp.com/assets/img_px.gif)IELTS One Skill Retake ](https://ielts.idp.com/vietnam/about/ielts-one-skill-retake "IELTS One Skill Retake")[ ![undefined](https://image.ielts.idp.com/assets/img_px.gif)Chương trình ưu đãi ](https://ielts.idp.com/vietnam/ielts-promotion "Chương trình ưu đãi")[ ![undefined](https://image.ielts.idp.com/assets/img_px.gif)Thi IELTS trên máy tính ](https://ielts.idp.com/vietnam/about/news-and-articles/article-computer-delivered-ielts "Thi IELTS trên máy tính")[ ![undefined](https://image.ielts.idp.com/assets/img_px.gif)Thi thử IELTS trên máy tính ](https://ielts.idp.com/vietnam/about/news-and-articles/article-ielts-computer-trial-at-home "Thi thử IELTS trên máy tính")
 #####  IELTS
-[ Đăng ký thi IELTS  ](https://ielts.idp.com/vietnam/book-my-test "Đăng ký thi IELTS ")[ Lịch thi IELTS ](https://ielts.idp.com/vietnam/test-day/ "Lịch thi IELTS")[ Lệ phí thi IELTS ](https://ielts.idp.com/vietnam/ielts-fees/ "Lệ phí thi IELTS")[ Địa điểm thi IELTS ](https://ielts.idp.com/vietnam/test-dates "Địa điểm thi IELTS")[ IELTS One Skill Retake ](https://ielts.idp.com/vietnam/about/ielts-one-skill-retake "IELTS One Skill Retake")[ Chương trình ưu đãi ](https://ielts.idp.com/vietnam/ielts-promotion "Chương trình ưu đãi")[ Thi IELTS trên máy tính ](https://ielts.idp.com/vietnam/about/news-and-articles/article-computer-delivered-ielts "Thi IELTS trên máy tính")[ Thi thử IELTS trên máy tính ](https://ielts.idp.com/vietnam/about/news-and-articles/article-ielts-computer-trial-at-home "Thi thử IELTS trên máy tính")
+[ ![undefined](https://image.ielts.idp.com/assets/img_px.gif)Đăng ký thi IELTS  ](https://ielts.idp.com/vietnam/book-my-test "Đăng ký thi IELTS ")[ ![undefined](https://image.ielts.idp.com/assets/img_px.gif)Lịch thi IELTS ](https://ielts.idp.com/vietnam/test-day/ "Lịch thi IELTS")[ ![undefined](https://image.ielts.idp.com/assets/img_px.gif)Lệ phí thi IELTS ](https://ielts.idp.com/vietnam/ielts-fees/ "Lệ phí thi IELTS")[ ![undefined](https://image.ielts.idp.com/assets/img_px.gif)Địa điểm thi IELTS ](https://ielts.idp.com/vietnam/test-dates "Địa điểm thi IELTS")[ ![undefined](https://image.ielts.idp.com/assets/img_px.gif)IELTS One Skill Retake ](https://ielts.idp.com/vietnam/about/ielts-one-skill-retake "IELTS One Skill Retake")[ ![undefined](https://image.ielts.idp.com/assets/img_px.gif)Chương trình ưu đãi ](https://ielts.idp.com/vietnam/ielts-promotion "Chương trình ưu đãi")[ ![undefined](https://image.ielts.idp.com/assets/img_px.gif)Thi IELTS trên máy tính ](https://ielts.idp.com/vietnam/about/news-and-articles/article-computer-delivered-ielts "Thi IELTS trên máy tính")[ ![undefined](https://image.ielts.idp.com/assets/img_px.gif)Thi thử IELTS trên máy tính ](https://ielts.idp.com/vietnam/about/news-and-articles/article-ielts-computer-trial-at-home "Thi thử IELTS trên máy tính")
 [Xem tất cả bài viết](/vietnam/about/news-and-articles)
 [ Preparation Chương trình ưu đãi hấp dẫn khi đăng ký thi IELTS tại IDP ](/vietnam/ielts-promotion)
 [ Preparation Thi IELTS trên máy tính: Tìm hiểu ưu điểm, các dạng câu hỏi và câu trả lời cho kỳ thi IELTS trên máy tính 30mins read ](/vietnam/about/article-advantages-ielts-on-computer)
@@ -135,8 +143,8 @@ WritingBand scoresPreparation
 [ Preparation On account of là gì? Ý nghĩa và cách dùng trong bài thi IELTS 5mins read ](/vietnam/about/news-and-articles/article-what-is-on-account-of)
 [ Test day Thi trên máy tính và thi trên giấy - Hình thức thi nào dễ hơn? ](/vietnam/about/news-and-articles/article-computer-vs-paper)
 [ Preparation Nên thi IELTS Học Thuật (IELTS Academic) hay kỳ thi IELTS Tổng Quát (General Training)? ](/vietnam/about/article-academic-or-general-training)
-[](/vietnam "IDP IELTS co-brand logo - footer")
-Việt Nam
+[![IDP IELTS co-brand logo - footer](https://image.ielts.idp.com/assets/img_px.gif)](/vietnam "IDP IELTS co-brand logo - footer")
+![](https://image.ielts.idp.com/assets/img_px.gif)Global
   * [ Argentina ](https://ielts.idp.com/argentina)
   * [ Armenia ](https://ielts.idp.com/armenia)
   * [ Australia ](https://ielts.com.au/australia)
@@ -260,12 +268,12 @@ Thi IELTS
 
 
 IDP IELTS – Việt Nam
-  * [](https://www.youtube.com/@IELTSbyIDPVietnam)
-  * [](https://www.instagram.com/ieltsbyidpvietnam/)
-  * [](https://www.linkedin.com/showcase/idp-vietnam/)
-  * [](https://www.facebook.com/ieltsbyidpvietnam/)
-  * [](https://zalo.me/3587922624351485800)
-  * [](https://www.tiktok.com/@ieltsbyidpvietnam)
+  * [![youtube](https://image.ielts.idp.com/assets/img_px.gif)](https://www.youtube.com/@IELTSbyIDPVietnam)
+  * [![instagram](https://image.ielts.idp.com/assets/img_px.gif)](https://www.instagram.com/ieltsbyidpvietnam/)
+  * [![linkedin](https://image.ielts.idp.com/assets/img_px.gif)](https://www.linkedin.com/showcase/idp-vietnam/)
+  * [![facebook](https://image.ielts.idp.com/assets/img_px.gif)](https://www.facebook.com/ieltsbyidpvietnam/)
+  * [![zalo](https://image.ielts.idp.com/assets/img_px.gif)](https://zalo.me/3587922624351485800)
+  * [![tiktok](https://image.ielts.idp.com/assets/img_px.gif)](https://www.tiktok.com/@ieltsbyidpvietnam)
 
 
 © IELTS Partners. IELTS Partners defined as The British Council, IELTS Australia Pty. Ltd. and Cambridge English (part of Cambridge University Press & Assessment)

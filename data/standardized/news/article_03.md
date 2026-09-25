@@ -2,7 +2,7 @@
 
 **Source:** https://ielts.org/news-and-insights/how-to-write-a-semi-formal-letter-for-ielts-general-training-writing-task-1
 
-**Crawled:** 2026-09-25T03:10:47.731768+00:00
+**Crawled:** 2026-09-25T13:30:40.341830+00:00
 
 ---
 
