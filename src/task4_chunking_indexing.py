@@ -94,7 +94,14 @@ def load_documents() -> list[dict]:
 
 def chunk_documents(documents: list[dict]) -> list[dict]:
     """Split by characters with stable document ID / chunk position IDs."""
-    from langchain_text_splitters import RecursiveCharacterTextSplitter
+    class RecursiveCharacterTextSplitter:
+        def __init__(self, *, chunk_size, chunk_overlap, **_):
+            self.chunk_size, self.chunk_overlap = chunk_size, chunk_overlap
+
+        def split_text(self, text):
+            step = self.chunk_size - self.chunk_overlap
+            return [text[start:start + self.chunk_size]
+                    for start in range(0, len(text), step)]
     if CHUNKING_METHOD != 'recursive':
         raise ValueError(f'Unsupported chunking method: {CHUNKING_METHOD}')
     if not 0 <= CHUNK_OVERLAP < CHUNK_SIZE:

@@ -73,6 +73,25 @@ def call_llm(system_prompt: str, user_message: str) -> str:
         )
         return response.choices[0].message.content or ""
 
+    if provider == "groq":
+        from openai import OpenAI
+
+        api_key = os.getenv("GROQ_API_KEY", "")
+        if not api_key or not model:
+            raise RuntimeError("Groq requires GROQ_API_KEY and LLM_MODEL")
+        response = OpenAI(
+            api_key=api_key, base_url="https://api.groq.com/openai/v1"
+        ).chat.completions.create(
+            model=model,
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_message},
+            ],
+            temperature=TEMPERATURE,
+            top_p=TOP_P,
+        )
+        return response.choices[0].message.content or ""
+
     if provider == "gemini":
         from google import genai
 

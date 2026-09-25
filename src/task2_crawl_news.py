@@ -24,7 +24,6 @@ from crawl4ai import AsyncWebCrawler
 DATA_DIR = Path(__file__).parent.parent / "data" / "landing" / "news"
 
 ARTICLE_URLS = [
-    # TODO: Thêm ít nhất 5 public URL.
     "https://ielts.org/news-and-insights/ielts-writing-band-descriptors-and-key-assessment-criteria",
     "https://ielts.org/news-and-insights/ielts-writing-task-2-how-to-understand-ielts-question-prompts",
     "https://ielts.org/news-and-insights/how-to-write-a-semi-formal-letter-for-ielts-general-training-writing-task-1",

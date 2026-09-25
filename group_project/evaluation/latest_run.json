@@ -1,0 +1,608 @@
+{
+  "run_at_utc": "2026-09-25T17:21:52.350843+00:00",
+  "top_k": 5,
+  "metric_notes": {
+    "faithfulness_and_answer_relevance": "Binary Groq LLM-as-judge over all 15 cases.",
+    "context_recall": "Expected-source hit@5 over 14 grounded cases.",
+    "context_precision": "Relevant retrieved chunks / retrieved chunks over 14 grounded cases."
+  },
+  "configurations": [
+    {
+      "name": "dense-only",
+      "summary": {
+        "faithfulness": 0.9333333333333333,
+        "answer_relevance": 1.0,
+        "context_recall": 0.9285714285714286,
+        "context_precision": 0.4714285714285714,
+        "mean_latency_ms": 151601.9,
+        "average": 0.8333333333333334
+      },
+      "cases": [
+        {
+          "case": 1,
+          "question": "IELTS Writing gồm những task nào và task nào có trọng số lớn hơn?",
+          "expected_answer": "Cả Academic và General Training đều có Task 1 và Task 2; Task 2 được tính trọng số cao hơn khi chấm.",
+          "expected_context": "legal/ielts-writing-key-assessment-criteria.md",
+          "answer": "IELTS Writing consists of Task 1 and Task 2, and Task 2 carries more weight in marking than Task 1. [Document 1]",
+          "sources": [
+            "legal/ielts-writing-key-assessment-criteria.md",
+            "legal/ielts-writing-key-assessment-criteria.md",
+            "news/article_04.md",
+            "news/article_05.md",
+            "news/article_06.md"
+          ],
+          "latency_ms": 220725.9,
+          "faithfulness": 1,
+          "answer_relevance": 1,
+          "context_recall": 1.0,
+          "context_precision": 0.4
+        },
+        {
+          "case": 2,
+          "question": "Bốn tiêu chí chấm Writing Task 1 là gì?",
+          "expected_answer": "Task 1 được chấm theo Task Achievement, Coherence and Cohesion, Lexical Resource, và Grammatical Range and Accuracy.",
+          "expected_context": "legal/ielts-writing-key-assessment-criteria.md",
+          "answer": "The four marking criteria for Writing Task 1 are Task Achievement, Coherence and Cohesion, Lexical Resource, and Grammatical Range and Accuracy. [Document 1]",
+          "sources": [
+            "legal/ielts-writing-key-assessment-criteria.md",
+            "news/article_05.md",
+            "legal/ielts-writing-key-assessment-criteria.md",
+            "legal/ielts-writing-key-assessment-criteria.md",
+            "news/article_05.md"
+          ],
+          "latency_ms": 148644.9,
+          "faithfulness": 1,
+          "answer_relevance": 1,
+          "context_recall": 1.0,
+          "context_precision": 0.6
+        },
+        {
+          "case": 3,
+          "question": "Task Response trong IELTS Writing Task 2 đánh giá điều gì?",
+          "expected_answer": "Tiêu chí này xem bài có trả lời trực tiếp, phù hợp và đầy đủ các phần của đề hay không.",
+          "expected_context": "news/article_02.md",
+          "answer": "Task Response evaluates how fully and appropriately the candidate addresses the task prompt, including relevance and completeness of the response. [Document 4]",
+          "sources": [
+            "legal/ielts-writing-scales-review-and-update-summary-overview-clark-et-al-2023.md",
+            "news/article_02.md",
+            "news/article_02.md",
+            "legal/ielts-writing-key-assessment-criteria.md",
+            "news/article_02.md"
+          ],
+          "latency_ms": 148384.2,
+          "faithfulness": 1,
+          "answer_relevance": 1,
+          "context_recall": 1.0,
+          "context_precision": 0.6
+        },
+        {
+          "case": 4,
+          "question": "Khi đề Task 2 hỏi disadvantages outweigh advantages, bài viết cần làm gì?",
+          "expected_answer": "Bài cần thảo luận cả ưu điểm lẫn nhược điểm, sau đó nêu rõ bên nào lớn hơn và lý do cho kết luận đó.",
+          "expected_context": "news/article_02.md",
+          "answer": "When the prompt states that disadvantages outweigh advantages, the essay must discuss both sides, state that disadvantages are greater, provide reasons, and restate this position in the conclusion. [Document 2]",
+          "sources": [
+            "news/article_02.md",
+            "news/article_02.md",
+            "news/article_02.md",
+            "news/article_06.md",
+            "news/article_05.md"
+          ],
+          "latency_ms": 148084.9,
+          "faithfulness": 1,
+          "answer_relevance": 1,
+          "context_recall": 1.0,
+          "context_precision": 0.6
+        },
+        {
+          "case": 5,
+          "question": "Một discussion essay Task 2 cần trả lời theo cấu trúc nào?",
+          "expected_answer": "Bài cần thảo luận cả hai quan điểm và đưa ra quan điểm riêng rõ ràng.",
+          "expected_context": "news/article_06.md",
+          "answer": "A discussion essay should follow the standard essay structure: an introduction (paraphrase and thesis), body paragraphs presenting each side, and a conclusion summarizing and stating your position. [Document 3]",
+          "sources": [
+            "news/article_06.md",
+            "news/article_06.md",
+            "news/article_06.md",
+            "news/article_02.md",
+            "news/article_06.md"
+          ],
+          "latency_ms": 147790.6,
+          "faithfulness": 1,
+          "answer_relevance": 1,
+          "context_recall": 1.0,
+          "context_precision": 0.8
+        },
+        {
+          "case": 6,
+          "question": "Semi-formal letter thuộc bài thi IELTS Writing nào?",
+          "expected_answer": "Semi-formal letter là dạng bài của IELTS General Training Writing Task 1.",
+          "expected_context": "news/article_03.md",
+          "answer": "Semi‑formal letters are written for the IELTS General Training Writing Task 1. [Document 1]",
+          "sources": [
+            "news/article_03.md",
+            "news/article_03.md",
+            "news/article_03.md",
+            "news/article_03.md",
+            "news/article_03.md"
+          ],
+          "latency_ms": 147418.8,
+          "faithfulness": 1,
+          "answer_relevance": 1,
+          "context_recall": 1.0,
+          "context_precision": 1.0
+        },
+        {
+          "case": 7,
+          "question": "Academic Writing Task 1 thường yêu cầu thí sinh làm gì?",
+          "expected_answer": "Thí sinh cần mô tả, tóm tắt hoặc giải thích thông tin trực quan như biểu đồ, bảng, quy trình hoặc bản đồ.",
+          "expected_context": "news/article_04.md",
+          "answer": "Academic Writing Task 1 requires candidates to describe and summarise the information presented in a chart, graph or diagram, presenting an overview and comparing trends. [Document 1]",
+          "sources": [
+            "legal/ielts-writing-key-assessment-criteria.md",
+            "news/article_04.md",
+            "legal/ielts-writing-key-assessment-criteria.md",
+            "legal/ielts-writing-key-assessment-criteria.md",
+            "news/article_05.md"
+          ],
+          "latency_ms": 147180.5,
+          "faithfulness": 1,
+          "answer_relevance": 1,
+          "context_recall": 1.0,
+          "context_precision": 0.2
+        },
+        {
+          "case": 8,
+          "question": "Band descriptors Writing có áp dụng cho cả Academic và General Training không?",
+          "expected_answer": "Có. Tài liệu nêu các tiêu chí chấm cho cả Academic và General Training, với mô tả riêng cho từng task khi cần.",
+          "expected_context": "legal/ielts-writing-band-descriptors.md",
+          "answer": "Yes – the band descriptors for Writing apply to both the Academic and General Training modules. [Document 1]",
+          "sources": [
+            "legal/ielts-writing-band-descriptors.md",
+            "legal/ielts-writing-scales-review-and-update-summary-overview-clark-et-al-2023.md",
+            "legal/ielts-writing-band-descriptors.md",
+            "news/article_01.md",
+            "news/article_05.md"
+          ],
+          "latency_ms": 146878.1,
+          "faithfulness": 1,
+          "answer_relevance": 1,
+          "context_recall": 1.0,
+          "context_precision": 0.4
+        },
+        {
+          "case": 9,
+          "question": "Điểm khác nhau chính giữa tiêu chí Task Achievement và Task Response là gì?",
+          "expected_answer": "Task Achievement dùng cho Task 1, còn Task Response dùng cho Task 2; cả hai đều đánh giá mức độ hoàn thành yêu cầu của đề.",
+          "expected_context": "legal/ielts-writing-key-assessment-criteria.md",
+          "answer": "Task Achievement is the criterion for Task 1, assessing how fully the candidate meets the task requirements, whereas Task Response is the criterion for Task 2, assessing how well the essay addresses the question. [Document 5]",
+          "sources": [
+            "news/article_05.md",
+            "legal/ielts-writing-key-assessment-criteria.md",
+            "news/article_05.md",
+            "legal/ielts-writing-scales-review-and-update-summary-overview-clark-et-al-2023.md",
+            "legal/ielts-writing-scales-review-and-update-summary-overview-clark-et-al-2023.md"
+          ],
+          "latency_ms": 146613.2,
+          "faithfulness": 1,
+          "answer_relevance": 1,
+          "context_recall": 1.0,
+          "context_precision": 0.2
+        },
+        {
+          "case": 10,
+          "question": "Vì sao không nên dùng bài mẫu học thuộc cho Task 2?",
+          "expected_answer": "Bài học thuộc có thể không trả lời đúng yêu cầu cụ thể của đề và làm mất điểm vì thiếu tính liên quan.",
+          "expected_context": "news/article_02.md",
+          "answer": "Memorised model essays should not be used for Task 2 because they may not address the specific task, risk plagiarism, and can lead to lower scores. [Document 1]",
+          "sources": [
+            "news/article_02.md",
+            "legal/ielts-writing-scales-review-and-update-summary-overview-clark-et-al-2023.md",
+            "news/article_04.md",
+            "news/article_04.md",
+            "news/article_06.md"
+          ],
+          "latency_ms": 146295.7,
+          "faithfulness": 1,
+          "answer_relevance": 1,
+          "context_recall": 1.0,
+          "context_precision": 0.2
+        },
+        {
+          "case": 11,
+          "question": "Khi đọc đề Task 2, cần kiểm tra điều gì để tránh bỏ sót yêu cầu?",
+          "expected_answer": "Cần xác định các ý trong statement, số phần của câu hỏi và các từ lệnh như why, suggest, decide hoặc evaluate.",
+          "expected_context": "news/article_02.md",
+          "answer": "Khi đọc đề Task 2, thí sinh cần kiểm tra xem mình đã đáp ứng đầy đủ các yêu cầu trong đề, bao gồm các câu hỏi và yêu cầu viết, để tránh bỏ sót bất kỳ phần nào. [Document 5]",
+          "sources": [
+            "news/article_05.md",
+            "news/article_02.md",
+            "legal/ielts-writing-key-assessment-criteria.md",
+            "legal/ielts-writing-key-assessment-criteria.md",
+            "news/article_02.md"
+          ],
+          "latency_ms": 146002.7,
+          "faithfulness": 0,
+          "answer_relevance": 1,
+          "context_recall": 1.0,
+          "context_precision": 0.4
+        },
+        {
+          "case": 12,
+          "question": "Tài liệu IELTS Writing Scales Review and Update có mục đích gì?",
+          "expected_answer": "Đây là báo cáo tóm tắt việc rà soát và cập nhật thang chấm IELTS Writing dựa trên nghiên cứu của các đối tác IELTS.",
+          "expected_context": "legal/ielts-writing-scales-review-and-update-summary-overview-clark-et-al-2023.md",
+          "answer": "Tài liệu IELTS Writing Scales Review and Update nhằm đánh giá và cập nhật tiêu chí và thang điểm cho bài viết IELTS, nhằm cải thiện độ tin cậy, tính hợp lệ và công bằng của bài thi. [Document 2][Document 5]",
+          "sources": [
+            "legal/ielts-writing-scales-review-and-update-summary-overview-clark-et-al-2023.md",
+            "legal/ielts-writing-scales-review-and-update-summary-overview-clark-et-al-2023.md",
+            "legal/ielts-writing-scales-review-and-update-summary-overview-clark-et-al-2023.md",
+            "legal/ielts-writing-scales-review-and-update-summary-overview-clark-et-al-2023.md",
+            "legal/ielts-writing-scales-review-and-update-summary-overview-clark-et-al-2023.md"
+          ],
+          "latency_ms": 145601.9,
+          "faithfulness": 1,
+          "answer_relevance": 1,
+          "context_recall": 1.0,
+          "context_precision": 1.0
+        },
+        {
+          "case": 13,
+          "question": "Trong opinion essay, thí sinh cần thể hiện điều gì?",
+          "expected_answer": "Thí sinh cần đưa ra lập trường rõ ràng và phát triển các lý do hỗ trợ cho lập trường đó.",
+          "expected_context": "news/article_02.md",
+          "answer": "Trong opinion essay, thí sinh cần thể hiện quan điểm cá nhân và dùng những lý luận để phân tích quan điểm đó. [Document 1]",
+          "sources": [
+            "news/article_06.md",
+            "news/article_06.md",
+            "news/article_06.md",
+            "news/article_06.md",
+            "news/article_06.md"
+          ],
+          "latency_ms": 145304.5,
+          "faithfulness": 1,
+          "answer_relevance": 1,
+          "context_recall": 0.0,
+          "context_precision": 0.0
+        },
+        {
+          "case": 14,
+          "question": "Coherence and Cohesion là một tiêu chí chấm Writing cho những task nào?",
+          "expected_answer": "Đây là tiêu chí dùng để chấm cả Writing Task 1 và Writing Task 2.",
+          "expected_context": "legal/ielts-writing-key-assessment-criteria.md",
+          "answer": "Tiêu chí Coherence and Cohesion được áp dụng cho cả Task 1 và Task 2 của cả Academic và General Training Writing tests. [Document 5][Document 1]",
+          "sources": [
+            "news/article_05.md",
+            "legal/ielts-writing-key-assessment-criteria.md",
+            "news/article_05.md",
+            "legal/ielts-writing-band-descriptors.md",
+            "legal/ielts-writing-band-descriptors.md"
+          ],
+          "latency_ms": 144727.1,
+          "faithfulness": 1,
+          "answer_relevance": 1,
+          "context_recall": 1.0,
+          "context_precision": 0.2
+        },
+        {
+          "case": 15,
+          "question": "Nguồn kiến thức của chatbot này có thể xác minh thông tin về visa du học Canada không?",
+          "expected_answer": "Không. Corpus hiện tập trung vào IELTS Writing nên chatbot cần từ chối xác minh thông tin visa du học Canada.",
+          "expected_context": "out_of_domain",
+          "answer": "I’m sorry, but I cannot verify that information from the provided context.",
+          "sources": [
+            "news/article_06.md",
+            "news/article_06.md",
+            "news/article_05.md",
+            "news/article_05.md",
+            "news/article_06.md"
+          ],
+          "latency_ms": 144375.5,
+          "faithfulness": 1,
+          "answer_relevance": 1,
+          "context_recall": null,
+          "context_precision": null
+        }
+      ]
+    },
+    {
+      "name": "hybrid-rrf",
+      "summary": {
+        "faithfulness": 0.9333333333333333,
+        "answer_relevance": 0.9333333333333333,
+        "context_recall": 1.0,
+        "context_precision": 0.4,
+        "mean_latency_ms": 257631.03333333333,
+        "average": 0.8166666666666667
+      },
+      "cases": [
+        {
+          "case": 1,
+          "question": "IELTS Writing gồm những task nào và task nào có trọng số lớn hơn?",
+          "expected_answer": "Cả Academic và General Training đều có Task 1 và Task 2; Task 2 được tính trọng số cao hơn khi chấm.",
+          "expected_context": "legal/ielts-writing-key-assessment-criteria.md",
+          "answer": "IELTS Writing gồm hai task: Task 1 và Task 2. Task 2 có trọng số lớn hơn trong việc đánh giá điểm tổng thể. [Document 1]",
+          "sources": [
+            "legal/ielts-writing-key-assessment-criteria.md",
+            "legal/ielts-writing-key-assessment-criteria.md",
+            "news/article_05.md",
+            "news/article_05.md",
+            "news/article_04.md"
+          ],
+          "latency_ms": 260736.8,
+          "faithfulness": 1,
+          "answer_relevance": 1,
+          "context_recall": 1.0,
+          "context_precision": 0.4
+        },
+        {
+          "case": 2,
+          "question": "Bốn tiêu chí chấm Writing Task 1 là gì?",
+          "expected_answer": "Task 1 được chấm theo Task Achievement, Coherence and Cohesion, Lexical Resource, và Grammatical Range and Accuracy.",
+          "expected_context": "legal/ielts-writing-key-assessment-criteria.md",
+          "answer": "Bốn tiêu chí chấm Writing Task 1 là: Task Achievement, Coherence and Cohesion, Lexical Resource, và Grammatical Range and Accuracy. [Document 1]",
+          "sources": [
+            "legal/ielts-writing-key-assessment-criteria.md",
+            "news/article_05.md",
+            "news/article_05.md",
+            "legal/ielts-writing-key-assessment-criteria.md",
+            "news/article_05.md"
+          ],
+          "latency_ms": 260209.8,
+          "faithfulness": 1,
+          "answer_relevance": 1,
+          "context_recall": 1.0,
+          "context_precision": 0.4
+        },
+        {
+          "case": 3,
+          "question": "Task Response trong IELTS Writing Task 2 đánh giá điều gì?",
+          "expected_answer": "Tiêu chí này xem bài có trả lời trực tiếp, phù hợp và đầy đủ các phần của đề hay không.",
+          "expected_context": "news/article_02.md",
+          "answer": "Task Response đánh giá mức độ đầy đủ và phù hợp của câu trả lời với đề bài, đảm bảo bài luận luôn tập trung vào chủ đề và đáp ứng yêu cầu đề. [Document 5]",
+          "sources": [
+            "legal/ielts-writing-key-assessment-criteria.md",
+            "news/article_02.md",
+            "legal/ielts-writing-scales-review-and-update-summary-overview-clark-et-al-2023.md",
+            "legal/ielts-writing-key-assessment-criteria.md",
+            "news/article_05.md"
+          ],
+          "latency_ms": 259832.2,
+          "faithfulness": 1,
+          "answer_relevance": 1,
+          "context_recall": 1.0,
+          "context_precision": 0.2
+        },
+        {
+          "case": 4,
+          "question": "Khi đề Task 2 hỏi disadvantages outweigh advantages, bài viết cần làm gì?",
+          "expected_answer": "Bài cần thảo luận cả ưu điểm lẫn nhược điểm, sau đó nêu rõ bên nào lớn hơn và lý do cho kết luận đó.",
+          "expected_context": "news/article_02.md",
+          "answer": "Khi đề Task 2 yêu cầu “disadvantages outweigh advantages”, bài viết phải trình bày cả hai mặt, phân tích lý do cho từng phía và giải thích vì sao mặt tiêu cực vượt trội hơn. [Document 1] [Document 5]",
+          "sources": [
+            "news/article_02.md",
+            "news/article_02.md",
+            "news/article_02.md",
+            "news/article_06.md",
+            "news/article_06.md"
+          ],
+          "latency_ms": 259180.4,
+          "faithfulness": 1,
+          "answer_relevance": 1,
+          "context_recall": 1.0,
+          "context_precision": 0.6
+        },
+        {
+          "case": 5,
+          "question": "Một discussion essay Task 2 cần trả lời theo cấu trúc nào?",
+          "expected_answer": "Bài cần thảo luận cả hai quan điểm và đưa ra quan điểm riêng rõ ràng.",
+          "expected_context": "news/article_06.md",
+          "answer": "Một discussion essay Task 2 cần tuân theo cấu trúc: mở bài (paraphrase đề, nêu mục đích), thân bài (đánh giá hai quan điểm một cách cân bằng), và kết bài (tóm tắt và nhấn mạnh quan điểm tổng thể). [Document 1] [Document 5]",
+          "sources": [
+            "news/article_06.md",
+            "news/article_06.md",
+            "news/article_06.md",
+            "news/article_06.md",
+            "legal/ielts-writing-key-assessment-criteria.md"
+          ],
+          "latency_ms": 258720.2,
+          "faithfulness": 1,
+          "answer_relevance": 1,
+          "context_recall": 1.0,
+          "context_precision": 0.8
+        },
+        {
+          "case": 6,
+          "question": "Semi-formal letter thuộc bài thi IELTS Writing nào?",
+          "expected_answer": "Semi-formal letter là dạng bài của IELTS General Training Writing Task 1.",
+          "expected_context": "news/article_03.md",
+          "answer": "Semi‑formal letter is part of the IELTS General Training Writing Task 1. [Document 1]",
+          "sources": [
+            "news/article_03.md",
+            "news/article_03.md",
+            "news/article_06.md",
+            "news/article_05.md",
+            "news/article_03.md"
+          ],
+          "latency_ms": 258293.3,
+          "faithfulness": 1,
+          "answer_relevance": 1,
+          "context_recall": 1.0,
+          "context_precision": 0.6
+        },
+        {
+          "case": 7,
+          "question": "Academic Writing Task 1 thường yêu cầu thí sinh làm gì?",
+          "expected_answer": "Thí sinh cần mô tả, tóm tắt hoặc giải thích thông tin trực quan như biểu đồ, bảng, quy trình hoặc bản đồ.",
+          "expected_context": "news/article_04.md",
+          "answer": "Academic Writing Task 1 requires candidates to describe, summarise or explain information presented in a visual format such as a graph, chart, table, diagram or process. [Document 1]",
+          "sources": [
+            "legal/ielts-writing-key-assessment-criteria.md",
+            "news/article_05.md",
+            "legal/ielts-writing-key-assessment-criteria.md",
+            "news/article_04.md",
+            "news/article_05.md"
+          ],
+          "latency_ms": 257983.1,
+          "faithfulness": 1,
+          "answer_relevance": 1,
+          "context_recall": 1.0,
+          "context_precision": 0.2
+        },
+        {
+          "case": 8,
+          "question": "Band descriptors Writing có áp dụng cho cả Academic và General Training không?",
+          "expected_answer": "Có. Tài liệu nêu các tiêu chí chấm cho cả Academic và General Training, với mô tả riêng cho từng task khi cần.",
+          "expected_context": "legal/ielts-writing-band-descriptors.md",
+          "answer": "Yes, the Writing band descriptors are used for both the Academic and General Training modules. [Document 1]",
+          "sources": [
+            "legal/ielts-writing-band-descriptors.md",
+            "news/article_05.md",
+            "news/article_05.md",
+            "legal/ielts-writing-scales-review-and-update-summary-overview-clark-et-al-2023.md",
+            "news/article_05.md"
+          ],
+          "latency_ms": 257564.2,
+          "faithfulness": 1,
+          "answer_relevance": 1,
+          "context_recall": 1.0,
+          "context_precision": 0.2
+        },
+        {
+          "case": 9,
+          "question": "Điểm khác nhau chính giữa tiêu chí Task Achievement và Task Response là gì?",
+          "expected_answer": "Task Achievement dùng cho Task 1, còn Task Response dùng cho Task 2; cả hai đều đánh giá mức độ hoàn thành yêu cầu của đề.",
+          "expected_context": "legal/ielts-writing-key-assessment-criteria.md",
+          "answer": "Task Achievement is the criterion for Task 1, focusing on fully addressing the task; Task Response is the criterion for Task 2, focusing on responding to the question and developing an argument. [Document 1]",
+          "sources": [
+            "news/article_05.md",
+            "legal/ielts-writing-key-assessment-criteria.md",
+            "legal/ielts-writing-key-assessment-criteria.md",
+            "news/article_05.md",
+            "news/article_06.md"
+          ],
+          "latency_ms": 257174.0,
+          "faithfulness": 1,
+          "answer_relevance": 1,
+          "context_recall": 1.0,
+          "context_precision": 0.4
+        },
+        {
+          "case": 10,
+          "question": "Vì sao không nên dùng bài mẫu học thuộc cho Task 2?",
+          "expected_answer": "Bài học thuộc có thể không trả lời đúng yêu cầu cụ thể của đề và làm mất điểm vì thiếu tính liên quan.",
+          "expected_context": "news/article_02.md",
+          "answer": "Memorised sample essays may not address the specific task, risk plagiarism, and may not be relevant, so they should be avoided. [Document 2]",
+          "sources": [
+            "news/article_05.md",
+            "legal/ielts-writing-key-assessment-criteria.md",
+            "news/article_02.md",
+            "legal/ielts-writing-scales-review-and-update-summary-overview-clark-et-al-2023.md",
+            "news/article_06.md"
+          ],
+          "latency_ms": 256791.7,
+          "faithfulness": 1,
+          "answer_relevance": 1,
+          "context_recall": 1.0,
+          "context_precision": 0.2
+        },
+        {
+          "case": 11,
+          "question": "Khi đọc đề Task 2, cần kiểm tra điều gì để tránh bỏ sót yêu cầu?",
+          "expected_answer": "Cần xác định các ý trong statement, số phần của câu hỏi và các từ lệnh như why, suggest, decide hoặc evaluate.",
+          "expected_context": "news/article_02.md",
+          "answer": "Khi đọc đề Task 2, bạn cần kiểm tra ba điều: (1) chủ đề cần bàn luận, (2) quan điểm hoặc vấn đề của chủ đề, và (3) yêu cầu đề bài.",
+          "sources": [
+            "news/article_05.md",
+            "news/article_06.md",
+            "news/article_02.md",
+            "legal/ielts-writing-key-assessment-criteria.md",
+            "news/article_05.md"
+          ],
+          "latency_ms": 256309.5,
+          "faithfulness": 0,
+          "answer_relevance": 0,
+          "context_recall": 1.0,
+          "context_precision": 0.2
+        },
+        {
+          "case": 12,
+          "question": "Tài liệu IELTS Writing Scales Review and Update có mục đích gì?",
+          "expected_answer": "Đây là báo cáo tóm tắt việc rà soát và cập nhật thang chấm IELTS Writing dựa trên nghiên cứu của các đối tác IELTS.",
+          "expected_context": "legal/ielts-writing-scales-review-and-update-summary-overview-clark-et-al-2023.md",
+          "answer": "Tài liệu IELTS Writing Scales Review and Update được thực hiện để xem xét và cập nhật các tiêu chí và mô tả band cho bài viết IELTS, nhằm cải thiện độ tin cậy, tính hợp lệ và công bằng của bài thi.",
+          "sources": [
+            "legal/ielts-writing-scales-review-and-update-summary-overview-clark-et-al-2023.md",
+            "legal/ielts-writing-scales-review-and-update-summary-overview-clark-et-al-2023.md",
+            "legal/ielts-writing-scales-review-and-update-summary-overview-clark-et-al-2023.md",
+            "news/article_05.md",
+            "legal/ielts-writing-scales-review-and-update-summary-overview-clark-et-al-2023.md"
+          ],
+          "latency_ms": 255932.2,
+          "faithfulness": 1,
+          "answer_relevance": 1,
+          "context_recall": 1.0,
+          "context_precision": 0.8
+        },
+        {
+          "case": 13,
+          "question": "Trong opinion essay, thí sinh cần thể hiện điều gì?",
+          "expected_answer": "Thí sinh cần đưa ra lập trường rõ ràng và phát triển các lý do hỗ trợ cho lập trường đó.",
+          "expected_context": "news/article_02.md",
+          "answer": "Trong bài luận opinion essay, thí sinh cần trình bày một quan điểm rõ ràng và hỗ trợ quan điểm đó bằng các lập luận.",
+          "sources": [
+            "news/article_02.md",
+            "news/article_05.md",
+            "news/article_06.md",
+            "news/article_05.md",
+            "news/article_06.md"
+          ],
+          "latency_ms": 255605.1,
+          "faithfulness": 1,
+          "answer_relevance": 1,
+          "context_recall": 1.0,
+          "context_precision": 0.2
+        },
+        {
+          "case": 14,
+          "question": "Coherence and Cohesion là một tiêu chí chấm Writing cho những task nào?",
+          "expected_answer": "Đây là tiêu chí dùng để chấm cả Writing Task 1 và Writing Task 2.",
+          "expected_context": "legal/ielts-writing-key-assessment-criteria.md",
+          "answer": "Tiêu chí Coherence and Cohesion được áp dụng cho cả Task 1 và Task 2 trong bài viết IELTS.",
+          "sources": [
+            "news/article_05.md",
+            "legal/ielts-writing-key-assessment-criteria.md",
+            "news/article_05.md",
+            "news/article_05.md",
+            "legal/ielts-writing-key-assessment-criteria.md"
+          ],
+          "latency_ms": 255217.9,
+          "faithfulness": 1,
+          "answer_relevance": 1,
+          "context_recall": 1.0,
+          "context_precision": 0.4
+        },
+        {
+          "case": 15,
+          "question": "Nguồn kiến thức của chatbot này có thể xác minh thông tin về visa du học Canada không?",
+          "expected_answer": "Không. Corpus hiện tập trung vào IELTS Writing nên chatbot cần từ chối xác minh thông tin visa du học Canada.",
+          "expected_context": "out_of_domain",
+          "answer": "I’m sorry, I cannot verify that.",
+          "sources": [
+            "news/article_05.md",
+            "news/article_06.md",
+            "news/article_05.md",
+            "news/article_06.md",
+            "news/article_05.md"
+          ],
+          "latency_ms": 254915.1,
+          "faithfulness": 1,
+          "answer_relevance": 1,
+          "context_recall": null,
+          "context_precision": null
+        }
+      ]
+    }
+  ],
+  "judgements_retried_at_utc": "2026-09-25T17:33:19.589347+00:00"
+}
