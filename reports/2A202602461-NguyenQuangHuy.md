@@ -11,29 +11,29 @@
 
 | Module/deliverable | Việc tôi trực tiếp làm | File/commit/PR | Trạng thái |
 |---|---|---|---|
-| Quản lý Git & Tích hợp | Phụ trách rà soát nhánh `main` và đối chiếu với nhánh `duc`. Hỗ trợ chuẩn bị kịch bản tích hợp và cấu hình báo cáo cá nhân trước khi nộp. | Nhánh `Huy` | Done |
+| Generation (LLM Provider) | Bổ sung Cohere SDK vào hệ sinh thái provider để mở rộng LLM chạy generation (tương tự OpenAI/Groq). Cấu hình API fallback. | `src/task10_generation.py` | Done |
 | Quality Assurance (QA) & Testing | Chạy bộ kiểm thử tự động (`pytest` acceptance/contracts), rà soát lỗi logic trước khi đóng gói sản phẩm. Đảm bảo pipeline End-to-End hoạt động ổn định đạt 100% tests passed. | Logs hệ thống kiểm thử nội bộ | Done |
-| Chuẩn bị Kịch bản Demo | Rà soát cấu trúc thư mục, đối chiếu Grading Rubric, chuẩn bị danh sách các câu hỏi test In-domain và Out-domain để chuẩn bị demo tính năng Fallback của chatbot. | Nhánh `Huy` | Done |
+| Chuẩn bị Kịch bản Demo | Rà soát cấu trúc thư mục, chuẩn bị danh sách các câu hỏi test In-domain và Out-domain để chuẩn bị demo tính năng Fallback của chatbot. | Nhánh `Huy` | Done |
 
 ## Quyết định kỹ thuật quan trọng
 
 Mô tả tối đa hai quyết định mà bạn trực tiếp tham gia:
 
-1. **Quyết định:** Không merge trực tiếp từ `Huy` sang `main` mà đẩy riêng lên nhánh cá nhân để trưởng nhóm dễ dàng theo dõi và review phần báo cáo cá nhân.
-   **Lý do/evidence:** Hạn chế rủi ro xảy ra merge conflict với file `RESULT.md` và `app.py` đang được bạn Đức (`duc`) và trưởng nhóm hoàn thiện trên nhánh chính.
-   **Trade-off:** Cần thêm một thao tác Pull Request (PR) cuối cùng từ trưởng nhóm để gộp tất cả file MD vào `main`.
+1. **Quyết định:** Tích hợp Cohere API làm LLM provider dự phòng thay vì chỉ dùng OpenAI.
+   **Lý do/evidence:** Đa dạng hóa provider để dự phòng trường hợp API key hết hạn hạn mức (Rate limit) hoặc service down.
+   **Trade-off:** Cần cài thêm thư viện `cohere` nhưng mang lại tính linh hoạt cao hơn.
 
 2. **Quyết định:** Áp dụng quy trình "Code Freeze" trên nhánh cá nhân.
-   **Lý do/evidence:** Để đảm bảo "Toàn bộ test chạy đạt trên bản commit nộp" (tiêu chí README), tôi phụ trách kiểm tra CI/CD (local pytest) sau khi pull code, và không thay đổi logic Python cốt lõi ở phút chót.
-   **Trade-off:** Tập trung hoàn thiện tài liệu thay vì cố gắng thêm feature mới rủi ro cao.
+   **Lý do/evidence:** Để đảm bảo "Toàn bộ test chạy đạt trên bản commit nộp", tôi phụ trách kiểm tra CI/CD (local pytest) sau khi thêm provider, và đảm bảo nó không phá hỏng cấu trúc Abstract của hệ thống.
+   **Trade-off:** Phải chạy test liên tục mỗi khi đổi code.
 
 ## Kiểm thử và kết quả
 
 - Test hoặc query tôi đã dùng: 
    - `pytest tests/test_acceptance.py -q`
    - `pytest tests/test_contracts.py -q`
-- Kết quả trước/sau nếu có: Xác nhận hệ thống đạt 20/20 test cases pass.
-- Lỗi đã phát hiện và cách xử lý: Phát hiện conflict tiềm ẩn ở các file báo cáo kết quả, xử lý bằng cách bám sát phân chia nhánh (Branching strategy) theo đúng phân công của nhóm.
+- Kết quả trước/sau nếu có: Xác nhận hệ thống đạt 20/20 test cases pass sau khi thêm Cohere integration.
+- Lỗi đã phát hiện và cách xử lý: Quản lý nhánh để code không bị conflict với phần Groq Integration của bạn Đức (`duc`).
 
 ## Điều cần hạn chế
 

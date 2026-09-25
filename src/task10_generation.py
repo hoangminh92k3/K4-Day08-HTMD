@@ -106,6 +106,22 @@ def call_llm(system_prompt: str, user_message: str) -> str:
             block.text for block in response.content if getattr(block, "type", None) == "text"
         )
 
+    if provider == "cohere":
+        import cohere
+
+        api_key = os.getenv("COHERE_API_KEY", "")
+        if not api_key or not model:
+            raise RuntimeError("Cohere requires COHERE_API_KEY and LLM_MODEL")
+        
+        client = cohere.Client(api_key=api_key)
+        response = client.chat(
+            message=f"Context:\n{system_prompt}\n\nUser Question: {user_message}",
+            model=model,
+            temperature=TEMPERATURE,
+            p=TOP_P
+        )
+        return response.text or ""
+
     raise ValueError(f"Unsupported LLM_PROVIDER: {LLM_PROVIDER}")
 
 
