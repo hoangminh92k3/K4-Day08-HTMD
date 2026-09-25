@@ -15,31 +15,47 @@ Cài browser trước khi chạy:
 
 import asyncio
 import json
+from datetime import datetime, timezone
 from pathlib import Path
+
+from crawl4ai import AsyncWebCrawler
 
 
 DATA_DIR = Path(__file__).parent.parent / "data" / "landing" / "news"
 
 ARTICLE_URLS = [
     # TODO: Thêm ít nhất 5 public URL.
+    "https://ielts.org/news-and-insights/ielts-writing-band-descriptors-and-key-assessment-criteria",
+    "https://ielts.org/news-and-insights/ielts-writing-task-2-how-to-understand-ielts-question-prompts",
+    "https://ielts.org/news-and-insights/how-to-write-a-semi-formal-letter-for-ielts-general-training-writing-task-1",
+    "https://ielts.org/news-and-insights/preparing-learners-for-task-1-on-the-ielts-academic-writing-test",
+    "https://ielts.idp.com/vietnam/about/news-and-articles/article-ielts-writing-band-descriptors",
+    "https://ielts.idp.com/vietnam/about/news-and-articles/article-ielts-writing-task-2-discussion-essay",
 ]
 
 
 async def crawl_article(url: str) -> dict:
-    # TODO: Implement crawling logic.
-    #
-    # from datetime import datetime
-    # from crawl4ai import AsyncWebCrawler
-    #
-    # async with AsyncWebCrawler() as crawler:
-    #     result = await crawler.arun(url=url)
-    #     return {
-    #         "url": url,
-    #         "title": result.metadata.get("title", "Unknown"),
-    #         "date_crawled": datetime.now().isoformat(),
-    #         "content_markdown": result.markdown,
-    #     }
-    raise NotImplementedError("Implement crawl_article")
+    """Crawl one public article and return the required JSON fields."""
+    async with AsyncWebCrawler() as crawler:
+        result = await crawler.arun(url=url)
+
+    if not result.success:
+        error_message = getattr(result, "error_message", "unknown crawl error")
+        raise RuntimeError(f"Crawl failed for {url}: {error_message}")
+
+    metadata = result.metadata or {}
+    title = metadata.get("title") or metadata.get("og:title") or "Unknown"
+    content_markdown = result.markdown or ""
+
+    if not content_markdown.strip():
+        raise ValueError(f"Crawl returned empty content for {url}")
+
+    return {
+        "url": url,
+        "title": title,
+        "date_crawled": datetime.now(timezone.utc).isoformat(),
+        "content_markdown": content_markdown,
+    }
 
 
 async def crawl_all() -> None:
