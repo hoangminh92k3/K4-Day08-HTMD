@@ -85,3 +85,8 @@ Chạy acceptance tests:
 ```powershell
 pytest -q
 ```
+
+
+## Bonus experiments
+
+- **Cohere Provider Integration:** Đã tích hợp thành công Cohere vào hệ sinh thái generation. Thử nghiệm trên UI (thay đổi Provider qua giao diện pp.py) cho thấy fallback hoạt động ổn định và đáp ứng tốt với các thay đổi thông số động. Phần triển khai này do Quang Huy phụ trách.
